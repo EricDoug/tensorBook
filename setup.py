@@ -6,9 +6,8 @@
 from distutils.core import setup
 
 setup(
-    name='autokeras',
-    packages=['autokeras'],  # this must be the same as the name above
-    install_requires=['tensorflow>=1.10.0'],
+    name='tensorbook',
+    packages=['tensorbook'],
     version='0.1',
     description='tensorBook to solve problem with TensorFlow',
     author='EricDoug',

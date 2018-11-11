@@ -3,5 +3,5 @@
 # @Author: eric_doug
 # @File: mnist.py
 
-
+import tensorflow as tf
 

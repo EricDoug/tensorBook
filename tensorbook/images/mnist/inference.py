@@ -33,7 +33,7 @@ def inference(input_tensor, reqularizer):
     with tf.variable_scope('layer2'):
         weights = get_weight_variable([LAYER1_NODE, OUTPUT_NODE], reqularizer)
         biases = tf.get_variable('biases', [LAYER1_NODE], initializer=tf.truncated_normal_initializer(stddev=0.0))
-        layer2 = tf.nn.relu(tf.matmul(layer1, weights) + biases)
+        layer2 = tf.matmul(layer1, weights) + biases
 
     return layer2
 

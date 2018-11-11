@@ -17,7 +17,7 @@ def evaluate(mnist):
         x = tf.placeholder(tf.float32, [None, INPUT_NODE], name='x-input')
         y_ = tf.placeholder(tf.float32, [None, OUTPUT_NODE], name='y-output')
 
-        validate_feed = { x: mnist.valiation.images, y_: mnist.validation.labels }
+        validate_feed = { x: mnist.validation.images, y_: mnist.validation.labels }
 
         y = inference(x, None)
 

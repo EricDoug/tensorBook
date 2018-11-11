@@ -4,7 +4,6 @@
 # @File: inference.py
 
 import tensorflow as tf
-from tensorflow.examples.tutorials.mnist import input_data
 
 
 INPUT_NODE = 784  # 输入层的节点数

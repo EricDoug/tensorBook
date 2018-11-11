@@ -6,7 +6,7 @@
 import os
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-from .inference import inference, INPUT_NODE, OUTPUT_NODE, LAYER1_NODE, get_weight_variable
+from inference import inference, INPUT_NODE, OUTPUT_NODE, LAYER1_NODE, get_weight_variable
 
 BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.8

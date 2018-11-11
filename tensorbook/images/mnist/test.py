@@ -6,8 +6,8 @@
 import time
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-from .inference import INPUT_NODE, OUTPUT_NODE, inference
-from .train import train, MOVING_AVERAGE_DECAY, MODEL_SAVE_PATH
+from inference import INPUT_NODE, OUTPUT_NODE, inference
+from train import train, MOVING_AVERAGE_DECAY, MODEL_SAVE_PATH
 
 EVAL_INTERVAL_SECS = 10
 
